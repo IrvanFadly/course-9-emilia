@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <TITLE> Membuat Frame berdasarkan kolom </TITLE>
+ <style>
+   frameset {
+    position: absolute;
+   }
+ </style>
+ </HEAD>
+ <frameset rows="25%, 75%, 25%">
+ <frame src="header.html">
+ <frameset cols="15%, 85%">
+   <frame src="menu.html">
+   <frame name="kiri" src="home.html">
+ </frameset>
+ <frame src="footer.html">
+ </frameset>
+</HTML>
